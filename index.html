@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Benjamin Michael Patterson</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="tabSelector.js"></script>
+  </head>
+  <body onload="setHomeTab(home);">
+  	<div id = "big-wrapper">
+	  	<div id = "nav-wrapper">
+	  		<ul class="menu">
+	  			<li><a href="#" onCLick="activateItem(this, about)">ABOUT</a></li>
+	  			<li><a href="#" onCLick="activateItem(this, resume)">RESUME</a></li>
+	  			<li><a href="#" onCLick="activateItem(this, works)">WORKS</a></li>
+	  		</ul>
+	  	</div>
+	  	<div id = "content-wrapper">
+	  		<div class="content">
+		  		<div id="about"><p>about</p></div>
+		  		<div id="resume"><p>resume</p></div>
+		  		<div id="works"><p>works</p></div>
+		  		<div id="home"><p>home</p></div>
+	  		</div>
+	  	</div>
+	</div>
+  </body>
+
+</html>
